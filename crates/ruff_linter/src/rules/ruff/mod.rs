@@ -415,6 +415,7 @@ mod tests {
         Ok(())
     }
 
+    #[test_case(Rule::UnnecessaryKeyCheck, Path::new("RUF019.py"))]
     #[test_case(Rule::UnsafeMarkupUse, Path::new("RUF035.py"))]
     #[test_case(Rule::MapIntVersionParsing, Path::new("RUF048.py"))]
     #[test_case(Rule::MapIntVersionParsing, Path::new("RUF048_1.py"))]
